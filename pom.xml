@@ -614,7 +614,7 @@ file:///wso2dev/rnd/app_manager/env/build/nexus-mock/
     <carbon.appmgt.version>1.1.0-SNAPSHOT</carbon.appmgt.version>
     <carbon.appmgt.bundle.version>1.1.0</carbon.appmgt.bundle.version>
     <carbon.appmgt.imp.pkg.version>[1.1.0, 1.2.0)</carbon.appmgt.imp.pkg.version>
-    <appmgt.feature.version>1.1.0-SNAPSHOT</appmgt.feature.version>
+    <appmgt.feature.version>1.1.0</appmgt.feature.version>
 
 	<!-- Carbon kernel version -->
     <carbon.kernel.version>4.4.1</carbon.kernel.version>
@@ -634,11 +634,10 @@ file:///wso2dev/rnd/app_manager/env/build/nexus-mock/
     <carbon.commons.version>4.4.3</carbon.commons.version>
     <carbon.registry.version>4.4.3</carbon.registry.version>
     <carbon.governance.version>4.5.1</carbon.governance.version>
-    <carbon.social.version>2.2.0-SNAPSHOT</carbon.social.version>
     <carbon.throttle.version>4.2.1</carbon.throttle.version>
     <carbon.apimgt.version>4.2.1</carbon.apimgt.version>
     <carbon.logging.version>4.4.1</carbon.logging.version>
-    <carbon.store.version>1.3.0-SNAPSHOT</carbon.store.version>
+    <carbon.store.version>1.3.0</carbon.store.version>
     <carbon.registry.imp.pkg.version>[1.0.1, 2.0.0)</carbon.registry.imp.pkg.version>
     <commons.logging.imp.pkg.version>[1.2.0, 1.3.0)</commons.logging.imp.pkg.version>
     <carbon.governance.pkg.version>[4.4.0, 4.6.0)</carbon.governance.pkg.version>
@@ -673,7 +672,7 @@ file:///wso2dev/rnd/app_manager/env/build/nexus-mock/
 
     <!-- Jaggery Version -->
     <jaggery.version>0.10.1</jaggery.version>
-    <jaggery.scxml.executors.version>1.3.0-SNAPSHOT</jaggery.scxml.executors.version>
+    <jaggery.scxml.executors.version>1.3.0</jaggery.scxml.executors.version>
 
 	<!-- Identity Version -->
 	<identity.sso.saml.version>${carbon.identity.version}</identity.sso.saml.version>
