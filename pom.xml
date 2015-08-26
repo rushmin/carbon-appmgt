@@ -15,9 +15,9 @@
   </parent>
 
   <scm>
-    <url>https://github.com/wso2/carbon-appmgt.git</url>
-    <developerConnection>scm:git:https://github.com/wso2/carbon-appmgt.git</developerConnection>
-    <connection>scm:git:https://github.com/wso2/carbon-appmgt.git</connection>
+    <url>https://github.com/rushmin/carbon-appmgt.git</url>
+    <developerConnection>scm:git:https://github.com/rushmin/carbon-appmgt.git</developerConnection>
+    <connection>scm:git:https://github.com/rushmin/carbon-appmgt.git</connection>
     <tag>HEAD</tag>
   </scm>
 
@@ -45,6 +45,23 @@
   	<module>features/org.wso2.carbon.appmgt.mdm.wso2emm.feature</module>
   	<module>features/org.wso2.carbon.appmgt.services.api.feature</module>
   </modules>
+
+<distributionManagement>
+<repository>
+<id>nexus-releases</id>
+<name>WSO2 Nexus Release Repository</name>
+<url>
+file:///wso2dev/rnd/app_manager/env/build/nexus-mock/
+</url>
+</repository>
+<snapshotRepository>
+<id>wso2.snapshots</id>
+<name>WSO2 Snapshot Repository</name>
+<url>
+file:///wso2dev/rnd/app_manager/env/build/nexus-mock/
+</url>
+</snapshotRepository>
+</distributionManagement>
 
   <build>
     <pluginManagement>
